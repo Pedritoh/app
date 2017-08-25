@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Login">20sp</dimen>
+    <dimen name="Senha">20sp</dimen>
+    <dimen name="paddi_all">12dp</dimen>
+    <dimen name="Tamanho_letra_cadastro">25sp</dimen>
+    <dimen name="Cadastro_Dp">5dp</dimen>
+    <dimen name="logo">230dp</dimen>
+
+</resources>

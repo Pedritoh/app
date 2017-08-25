@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Delivery</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Login">20sp</string>
+    <string name="Login_tela">Login</string>
+    <string name="Senha_Login">Senha</string>
+    <string name="Nome_Cadastro">Nome</string>
+    <string name="Endereco_Cadastro">Endereço</string>
+    <string name="Telefone_Cadastro">Telefone</string>
+    <string name="NumeroCasa_cadastro">Nº</string>
+    <string name="Cidade_Cadastro">Cidade</string>
+    <string name="Email_cadastro">Email</string>
+    <string name="Senha_cadastro">Senha</string>
+    <string name="Logar">Email</string>
+    <string name="botao_ir">Ir</string>
+    <string name="botao_logar">Entrar</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="Mensagem_Cadastro">Não possui cadastro? Clique Aqui e faça!</string>
+    <string name="EfetuarCadastro">Cadastrar</string>
+    <string name="NomeCadastro">NomeCadastro</string>
+    <string name="EnderecoCadastro">EnderecoCadastro</string>
+    <string name="CadastroNumeroCasa">CadastroNumeroCasa</string>
+    <string name="CadastrarCidade">CadastrarCidade</string>
+    <string name="CadastroTelefone">CadastroTelefone</string>
+    <string name="CadastrarEmail">CadastrarEmail</string>
+    <string name="CadastrarSenha">CadastrarSenha</string>
+    <string name="BotaoCadastrar">Efetuar Cadastro</string>
+    <string name="CadastrarNomeId">Nome</string>
+    <string name="CadastrarEnderecoId">Endereço</string>
+    <string name="CadastrarNumeroCasaId">Nº</string>
+    <string name="CadastrarCidadeId">Cidade</string>
+    <string name="CadastrarTelefoneId">Telefone</string>
+    <string name="CadastrarEmailId">Email</string>
+    <string name="CadastrarSenhaId">Senha</string>
+    <string name="TitleCardapio">Cardápio</string>
+    <string name="BotaoVoltarLogin">Voltar</string>
+    <string name="FormasPag">Qual será a forma de Pagamento?</string>
+    <string name="CartaoCredito">Cartão de Credito?</string>
+    <string name="CheckVisa">Visa</string>
+    <string name="CheckMasterCard">MasterCard</string>
+    <string name="CheckElo">Elo</string>
+    <string name="textDebito">Cartão de Débito?</string>
+    <string name="DebitoVisa">Visa</string>
+    <string name="DebitoMaster">MasterCard</string>
+    <string name="DebitoElo">Elo</string>
+    <string name="MessagemMotoboy">Após selecionar a sua opção o moto-boy levara a maquina para efetuar o pagamento</string>
+    <string name="PagamentoAvista">Avista</string>
+    <string name="questTroco">Precisa de troco ? se sim, informar no campo Opções.</string>
+    <string name="BotaoProsseguir">Prosseguir</string>
+    <string name="grande">Grande</string>
+    <string name="m_dia">Média</string>
+    <string name="pequeno">Pequeno</string>
+    <string name="qual_o_tamanho_da_pizza">Qual o Tamanho da pizza?</string>
+    <string name="voc_deseja_borda">você deseja borda?</string>
+    <string name="prosseguir">Prosseguir</string>
+    <string name="Dinheiro">Dinheiro</string>
+    <string name="voce_desej_borda">Você deseja bordas?</string>
+</resources>

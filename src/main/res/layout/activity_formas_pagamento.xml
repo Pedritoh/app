@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pedrito.delivery.FormasPagamento"
+    android:background="@color/BackGroudAPP">
+
+    <CheckBox
+        android:id="@+id/CheckCCVisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/CheckVisa"
+        android:layout_below="@+id/textCartao"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/CheckCCMasterCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CheckCCVisa"
+        android:layout_alignBottom="@+id/CheckCCVisa"
+        android:layout_alignEnd="@+id/textFormasPag"
+        android:layout_alignRight="@+id/textFormasPag"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/CheckMasterCard" />
+
+    <CheckBox
+        android:id="@+id/CheckCCElo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:text="@string/CheckElo"
+        android:layout_alignBaseline="@+id/CheckCCMasterCard"
+        android:layout_alignBottom="@+id/CheckCCMasterCard"
+        android:layout_toRightOf="@+id/textFormasPag"
+        android:layout_toEndOf="@+id/textFormasPag" />
+
+    <TextView
+        android:id="@+id/textFormasPag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CheckCCVisa"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/CheckCCVisa"
+        android:layout_marginTop="49dp"
+        android:text="@string/FormasPag"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textCartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CheckCCVisa"
+        android:layout_alignStart="@+id/CheckCCVisa"
+        android:layout_alignTop="@+id/textFormasPag"
+        android:layout_marginTop="40dp"
+        android:text="@string/CartaoCredito"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDebito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/textDebito"
+        android:textStyle="bold"
+        android:layout_below="@+id/CheckCCVisa"
+        android:layout_alignLeft="@+id/CheckCCVisa"
+        android:layout_alignStart="@+id/CheckCCVisa" />
+
+    <CheckBox
+        android:id="@+id/CheckVisaDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/DebitoVisa"
+        android:layout_below="@+id/textDebito"
+        android:layout_alignLeft="@+id/textDebito"
+        android:layout_alignStart="@+id/textDebito"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp" />
+
+    <CheckBox
+        android:id="@+id/CheckMasterDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textAviso"
+        android:layout_alignLeft="@+id/CheckCCMasterCard"
+        android:layout_alignStart="@+id/CheckCCMasterCard"
+        android:text="@string/DebitoMaster" />
+
+    <CheckBox
+        android:id="@+id/CheckEloDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textAviso"
+        android:layout_alignLeft="@+id/CheckCCElo"
+        android:layout_alignStart="@+id/CheckCCElo"
+        android:text="@string/DebitoElo" />
+
+    <TextView
+        android:id="@+id/textAviso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CheckVisaDb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/MessagemMotoboy"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/CheckAvistaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CheckVisaDb"
+        android:layout_alignStart="@+id/CheckVisaDb"
+        android:layout_below="@+id/textAviso"
+        android:layout_marginTop="34dp"
+        android:text="@string/Dinheiro" />
+
+    <TextView
+        android:id="@+id/questTroco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CheckAvistaId"
+        android:layout_marginTop="19dp"
+        android:text="@string/questTroco"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTroco"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/textDebito"
+        android:layout_alignStart="@+id/textDebito"
+        android:layout_below="@+id/questTroco"
+        android:background="@color/backgroud_BOX_APP"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Necessita de Troco ?" />
+
+    <Button
+        android:id="@+id/ButtonProseguir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="5dp"
+        android:text="@string/BotaoProsseguir"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_below="@+id/editTroco"
+        android:layout_alignLeft="@+id/CheckCCElo"
+        android:layout_alignStart="@+id/CheckCCElo" />
+</RelativeLayout>
